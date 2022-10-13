@@ -7,6 +7,6 @@ public class LowerBoundsDestroy : MonoBehaviour
     void Update()
     {
         if (transform.position.z < lowerBounds)
-            Destroy(this);
+            Destroy(gameObject);
     }
 }

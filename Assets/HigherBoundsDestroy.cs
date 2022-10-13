@@ -7,6 +7,6 @@ public class HigherBoundsDestroy : MonoBehaviour
     void Update()
     {
         if (transform.position.z > higherBounds)
-            Destroy(this);
+            Destroy(gameObject);
     }
 }
