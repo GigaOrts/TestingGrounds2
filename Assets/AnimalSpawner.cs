@@ -3,21 +3,20 @@ using UnityEngine;
 public class AnimalSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] animals;
-    [SerializeField] private float countdown = 2f;
+    [SerializeField] private float spawnDelay = 1f;
 
-    private float[] positions = { 10f, 0f, -10f };
-    private float spawnPositionZ = 20f;
-    private float spawnDelay = 1f;
+    private float[] Xpositions = { 10f, 0f, -10f };
+    private float ZspawnPosition = 20f;
 
-    private void Update()
+    private void Start()
     {
-        Invoke("SpawnRandomAnimal", spawnDelay);
+        InvokeRepeating(nameof(SpawnRandomAnimal), 0f, spawnDelay);
     }
 
     private void SpawnRandomAnimal()
     {
         int animalIndex = Random.Range(0, animals.Length);
-        int positionIndex = Random.Range(0, positions.Length);
-        Instantiate(animals[animalIndex], new Vector3(positions[positionIndex], 0f, spawnPositionZ), animals[animalIndex].transform.rotation);
+        int positionIndex = Random.Range(0, Xpositions.Length);
+        Instantiate(animals[animalIndex], new Vector3(Xpositions[positionIndex], 0f, ZspawnPosition), animals[animalIndex].transform.rotation);
     }
 }

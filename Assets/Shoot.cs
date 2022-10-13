@@ -3,10 +3,11 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [SerializeField] private GameObject projectile;
+    [SerializeField] private Transform projectileCanon;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-            Instantiate(projectile, transform.position, Quaternion.identity);
+            Instantiate(projectile, projectileCanon.position, Quaternion.identity);
     }
 }
