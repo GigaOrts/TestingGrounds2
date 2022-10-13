@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6190517874210354335}
   - component: {fileID: 3068352072747995120}
   - component: {fileID: -285059858090775826}
+  - component: {fileID: 2115886745746102516}
   m_Layer: 0
   m_Name: Bottle Projectile
   m_TagString: Untagged
@@ -89,6 +90,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.563897, y: 0.572448, z: 2.0090232}
   m_Center: {x: -0.004275501, y: 0, z: -0.00000023841858}
+--- !u!114 &2115886745746102516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4662613077602939513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ee565a5db0e344baf0b57aeb93d9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4662613076248281145
 PrefabInstance:
   m_ObjectHideFlags: 0
