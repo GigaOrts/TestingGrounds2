@@ -8,12 +8,11 @@ public class GameController : MonoBehaviour
     public void ChangeLives(int lives)
     {
         Lives += lives;
+        
         Debug.Log("Lives: " + Lives);
 
         if (Lives <= 0)
-        {
             EndGame();
-        }
     }
 
     private void EndGame()
