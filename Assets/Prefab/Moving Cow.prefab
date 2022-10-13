@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564b445fa3d61894fbaf8521eace4ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 10
 --- !u!65 &8539173946640341241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036f15e1141d16048a595cf39a59312d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTemp: {fileID: 1864897602664804316, guid: 4d93e5634c6de374494c2fff87314599, type: 3}
 --- !u!114 &-4134483250438423815
 MonoBehaviour:
   m_ObjectHideFlags: 0
