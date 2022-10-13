@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3068352072747995120}
   - component: {fileID: -285059858090775826}
   - component: {fileID: 2115886745746102516}
+  - component: {fileID: 8276383995448488351}
   m_Layer: 0
   m_Name: Bottle Projectile
   m_TagString: Untagged
@@ -100,6 +101,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01ee565a5db0e344baf0b57aeb93d9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8276383995448488351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4662613077602939513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036f15e1141d16048a595cf39a59312d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4662613076248281145

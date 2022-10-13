@@ -3,7 +3,6 @@ using UnityEngine;
 public class AnimalSpawner : MonoBehaviour
 {
     [SerializeField] private Transform[] spawnPositions;
-
     [SerializeField] private GameObject[] animals;
     [SerializeField] private float spawnDelay = 1f;
 

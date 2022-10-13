@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 2591899034431087515}
   - component: {fileID: -4598158038720481965}
   - component: {fileID: 8503245665735617362}
+  - component: {fileID: 8633408965313375375}
   m_Layer: 0
   m_Name: Moving Doe
   m_TagString: Untagged
@@ -242,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564b445fa3d61894fbaf8521eace4ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  speed: 9
 --- !u!65 &2591899034431087515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -278,6 +279,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaeb033bbc5827640b59dc4e9bba7aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8633408965313375375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9211360915256908171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626dce760811d334b9b0700118feb96d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9211360915256938339

@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 6376266464906630006}
   - component: {fileID: 1974221729351868062}
   - component: {fileID: 6460966171350108278}
+  - component: {fileID: 8485018392409497966}
   m_Layer: 0
   m_Name: Moving Fox
   m_TagString: Untagged
@@ -1074,7 +1075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564b445fa3d61894fbaf8521eace4ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 6
 --- !u!65 &6376266464906630006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1110,5 +1111,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aaeb033bbc5827640b59dc4e9bba7aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8485018392409497966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858865892659208087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626dce760811d334b9b0700118feb96d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
