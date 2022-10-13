@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private const int boundPosition = 10;
     [SerializeField] private float speed;
 
+    private float boundPosition = 10f;
     private float horizontal;
 
     void Update()
