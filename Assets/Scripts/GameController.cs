@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public int Score { get; private set; } = 0;
-    public int Lives { get; private set; } = 5;
+    public int Lives { get; private set; } = 20;
 
     public void ChangeLives(int lives)
     {
