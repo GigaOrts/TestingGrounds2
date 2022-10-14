@@ -15,15 +15,15 @@ public class GameController : MonoBehaviour
             EndGame();
     }
 
-    private void EndGame()
-    {
-        Debug.Log("GAME OVER");
-        Time.timeScale = 0;
-    }
-
     public void AddScore(int score)
     {
         Score += score;
         Debug.Log("Score: " + Score);
+    }
+
+    private void EndGame()
+    {
+        Debug.Log("GAME OVER");
+        Time.timeScale = 0;
     }
 }

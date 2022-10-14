@@ -12,7 +12,7 @@ public class OutOfBoundsDestroy : MonoBehaviour
         game = FindObjectOfType<GameController>().GetComponent<GameController>();
     }
 
-    void Update()
+    private void FixedUpdate()
     {
         outOfBoundsX = transform.position.x > bounds || transform.position.x < -bounds;
 

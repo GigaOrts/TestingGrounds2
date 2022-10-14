@@ -17,9 +17,8 @@ public class CollisionDetector : MonoBehaviour
         }
         else if (other.TryGetComponent(out Animal _))
         {
-            Destroy(other.gameObject);
+            other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(gameObject);
-            game.AddScore(5);
         }
     }
 }
